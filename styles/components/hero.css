@@ -1,0 +1,60 @@
+.hero {
+  background-color: #68adde;
+}
+@media (min-width: 1500px) {
+  .hero > .container {
+    display: flex;
+    width: 82%;
+    margin: auto;
+    justify-content: space-between;
+    padding-top: 90px;
+  }
+  .hero-content {
+    align-self: center;
+    width: 47%;
+    margin-left: 21px;
+    margin-bottom: 80px;
+  }
+  .hero-content > h1 {
+    font-family: Ubuntu-Bold, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    font-size: 52px;
+    color: rgba(247, 246, 242, 255);
+    text-align: left;
+    margin-bottom: 27px;
+    margin-top: 0px;
+    text-transform: uppercase;
+    line-height: 145%;
+  }
+  .hero-content > p {
+    font-family: Ubuntu-LightItalic, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    font-size: 26px;
+    color: rgba(255, 255, 255, 255);
+    text-align: left;
+    margin-bottom: 55px;
+  }
+  .hero-content > .text-under-form {
+    display: flex;
+    font-family: Ubuntu-Bold, ﻿Ubuntu-Medium, ﻿AdobeInvisFont,
+      ﻿MyriadPro-Regular;
+    font-size: 16px;
+    color: rgba(247, 247, 247, 255);
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  .hero-content > .text-under-form > div {
+    align-self: center;
+    margin-left: 4px;
+    padding: 7px 7px;
+    border-radius: 6px;
+    background-color: #ffce54;
+  }
+  .hero-image {
+    margin-right: -44px;
+    min-width: 546px;
+    height: 748px;
+  }
+  .hero-image > img {
+    width: 546px;
+    height: 100%;
+  }
+}

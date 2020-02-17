@@ -1,0 +1,30 @@
+.logo-image {
+  width: 23px;
+  height: 37px;
+}
+.companu-logo > .container {
+  width: 77.7%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 59px;
+  margin-bottom: 47px;
+}
+.companu-logo > .container > div > img {
+  align-self: flex-end;
+}
+.googl-logo {
+  margin-bottom: -7.5px;
+}
+
+@media (min-width: 1500px) {
+}
+@media (min-width: 1200px) and (max-widt: 1500px) {
+}
+@media (min-width: 960px) and (max-widt: 1200px) {
+}
+@media (min-width: 640px) and (max-widt: 960px) {
+}
+@media (min-width: 360px) and (max-widt: 640px) {
+}

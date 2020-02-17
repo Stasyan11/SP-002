@@ -1,0 +1,128 @@
+@media (min-width: 1500px) {
+  nav {
+    width: 37.5%;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    margin-right: -9px;
+  }
+  nav > div {
+    width: 31%;
+  }
+  nav > div > a {
+    font-family: Ubuntu, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    color: rgba(45, 57, 76, 255);
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+  .firsrt-nav {
+    width: 29.59%;
+  }
+  .secend-nav {
+    width: 8.6%;
+  }
+  .secend-nav-box {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+  nav {
+    width: 37.5%;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    margin-right: -9px;
+  }
+  nav > div {
+    width: 31%;
+  }
+  nav > div > a {
+    font-family: Ubuntu, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    color: rgba(45, 57, 76, 255);
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+  .firsrt-nav {
+    width: 29.59%;
+  }
+  .secend-nav {
+    width: 8.6%;
+  }
+  .secend-nav-box {
+    display: none;
+  }
+}
+@media (min-width: 960px) and (max-width: 1200px) {
+  nav {
+    width: 37.5%;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    margin-right: -9px;
+  }
+  nav > div {
+    width: 31%;
+  }
+  nav > div > a {
+    font-family: Ubuntu, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    color: rgba(45, 57, 76, 255);
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+  .firsrt-nav {
+    width: 29.59%;
+  }
+  .secend-nav {
+    width: 8.6%;
+  }
+  .secend-nav-box {
+    display: none;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 960px) {
+  nav {
+    display: none;
+  }
+  .secend-nav-box {
+    width: 56px;
+    height: 44px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #5094f2;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  .secend-nav-box > div {
+    margin: 3px 0;
+    width: 63%;
+    height: 13.6%;
+    background-color: white;
+  }
+}
+@media (min-width: 360px) and (max-width: 640px) {
+  nav {
+    display: none;
+  }
+  .secend-nav-box {
+    width: 56px;
+    height: 44px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #5094f2;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .secend-nav-box > div {
+    margin: 3px 0;
+    width: 63%;
+    height: 13.6%;
+    background-color: white;
+  }
+}

@@ -1,0 +1,321 @@
+@media (min-width: 1500px) {
+  header .container {
+    width: 84%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .logo {
+    display: flex;
+    font-family: Nunito-Regular, ﻿FontAwesome, ﻿AdobeInvisFont,
+      ﻿MyriadPro-Regular;
+    font-size: 37px;
+    text-align: center;
+    margin-top: 29px;
+    margin-bottom: 28px;
+    padding-left: 10px;
+  }
+  .logo > .logo-text {
+    margin-left: 5px;
+  }
+  .logo > .logo-text > span {
+    color: #65a9d9;
+    margin-left: -5px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+  header .container {
+    width: 84%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .logo {
+    display: flex;
+    font-family: Nunito-Regular, ﻿FontAwesome, ﻿AdobeInvisFont,
+      ﻿MyriadPro-Regular;
+    font-size: 37px;
+    text-align: center;
+    margin-top: 29px;
+    margin-bottom: 28px;
+    padding-left: 10px;
+  }
+  .logo > .logo-text {
+    margin-left: 5px;
+  }
+  .logo > .logo-text > span {
+    color: #65a9d9;
+    margin-left: -5px;
+  }
+  /*hero*/
+  .hero > .container {
+    width: 82%;
+    padding: 30px 0;
+    margin: auto;
+  }
+  .hero-content {
+    align-self: center;
+    width: 47%;
+    margin: auto;
+  }
+  .hero-content > h1 {
+    font-family: Ubuntu-Bold, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    font-size: 42px;
+    color: rgba(247, 246, 242, 255);
+    text-align: left;
+    margin-bottom: 27px;
+    margin-top: 0px;
+    text-transform: uppercase;
+    line-height: 145%;
+  }
+  .hero-content > p {
+    font-family: Ubuntu-LightItalic, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    font-size: 26px;
+    color: rgba(255, 255, 255, 255);
+    text-align: center;
+    margin-bottom: 55px;
+  }
+  .hero-content > .text-under-form {
+    display: flex;
+    font-family: Ubuntu-Bold, ﻿Ubuntu-Medium, ﻿AdobeInvisFont,
+      ﻿MyriadPro-Regular;
+    font-size: 16px;
+    color: rgba(247, 247, 247, 255);
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  .hero-content > .text-under-form > div {
+    align-self: center;
+    margin-left: 4px;
+    padding: 7px 7px;
+    border-radius: 6px;
+    background-color: #ffce54;
+  }
+  .hero-image {
+    display: none;
+  }
+}
+@media (min-width: 960px) and (max-width: 1200px) {
+  header .container {
+    width: 84%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .logo {
+    display: flex;
+    font-family: Nunito-Regular, ﻿FontAwesome, ﻿AdobeInvisFont,
+      ﻿MyriadPro-Regular;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 29px;
+    margin-bottom: 28px;
+    padding-left: 10px;
+  }
+  .logo > .logo-text {
+    margin-left: 5px;
+    margin-top: 5px;
+  }
+  .logo > .logo-text > span {
+    color: #65a9d9;
+    margin-left: -5px;
+  }
+  /*hero*/
+  .hero > .container {
+    width: 82%;
+    padding: 30px 0;
+    margin: auto;
+  }
+  .hero-content {
+    align-self: center;
+    width: 77%;
+    margin: auto;
+  }
+  .hero-content > h1 {
+    font-family: Ubuntu-Bold, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    font-size: 42px;
+    color: rgba(247, 246, 242, 255);
+    text-align: left;
+    margin-bottom: 27px;
+    margin-top: 0px;
+    text-transform: uppercase;
+    line-height: 145%;
+  }
+  .hero-content > p {
+    font-family: Ubuntu-LightItalic, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    font-size: 22px;
+    color: rgba(255, 255, 255, 255);
+    text-align: center;
+    margin-bottom: 55px;
+  }
+  .hero-content > .text-under-form {
+    display: flex;
+    font-family: Ubuntu-Bold, ﻿Ubuntu-Medium, ﻿AdobeInvisFont,
+      ﻿MyriadPro-Regular;
+    font-size: 16px;
+    color: rgba(247, 247, 247, 255);
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  .hero-content > .text-under-form > div {
+    align-self: center;
+    margin-left: 4px;
+    padding: 7px 7px;
+    border-radius: 6px;
+    background-color: #ffce54;
+  }
+  .hero-image {
+    display: none;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 960px) {
+  header .container {
+    width: 84%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 29px;
+    margin-bottom: 28px;
+  }
+  .logo {
+    display: flex;
+    font-family: Nunito-Regular, ﻿FontAwesome, ﻿AdobeInvisFont,
+      ﻿MyriadPro-Regular;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 29px;
+    margin-bottom: 28px;
+    margin: auto;
+  }
+  .logo > .logo-text {
+    margin-left: 5px;
+    margin-top: 5px;
+  }
+  .logo > .logo-text > span {
+    color: #65a9d9;
+    margin-left: -5px;
+  }
+  /*hero*/
+  .hero > .container {
+    width: 82%;
+    padding: 30px 0;
+    margin: auto;
+  }
+  .hero-content {
+    align-self: center;
+    width: 97%;
+    margin: auto;
+  }
+  .hero-content > h1 {
+    font-family: Ubuntu-Bold, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    font-size: 32px;
+    color: rgba(247, 246, 242, 255);
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    text-transform: uppercase;
+    line-height: 145%;
+  }
+  .hero-content > p {
+    font-family: Ubuntu-LightItalic, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    font-size: 22px;
+    color: rgba(255, 255, 255, 255);
+    text-align: center;
+    margin-bottom: 35px;
+  }
+  .hero-content > .text-under-form {
+    display: flex;
+    font-family: Ubuntu-Bold, ﻿Ubuntu-Medium, ﻿AdobeInvisFont,
+      ﻿MyriadPro-Regular;
+    font-size: 16px;
+    color: rgba(247, 247, 247, 255);
+    text-align: left;
+    margin-bottom: 15px;
+  }
+  .hero-content > .text-under-form > div {
+    text-align: center;
+    margin-left: 3px;
+    padding: 4px 4px;
+    border-radius: 6px;
+    background-color: #ffce54;
+    align-self: center;
+  }
+  .hero-image {
+    display: none;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 640px) {
+  header .container {
+    width: 100%;
+    margin-top: 29px;
+    margin-bottom: 28px;
+  }
+  .logo {
+    width: 170px;
+    margin: auto;
+    display: flex;
+    font-family: Nunito-Regular, ﻿FontAwesome, ﻿AdobeInvisFont,
+      ﻿MyriadPro-Regular;
+    font-size: 30px;
+    text-align: center;
+  }
+  .logo > .logo-text {
+    margin-left: 5px;
+    margin-top: 5px;
+  }
+  .logo > .logo-text > span {
+    color: #65a9d9;
+    margin-left: -5px;
+  }
+  /*hero*/
+  .hero > .container {
+    width: 98%;
+    padding: 30px 0;
+    margin: auto;
+  }
+  .hero-content {
+    align-self: center;
+    width: 100%;
+    margin: auto;
+  }
+  .hero-content > h1 {
+    font-family: Ubuntu-Bold, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    font-size: 26px;
+    color: rgba(247, 246, 242, 255);
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    text-transform: uppercase;
+    line-height: 145%;
+  }
+  .hero-content > p {
+    font-family: Ubuntu-LightItalic, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 255);
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  .hero-content > .text-under-form {
+    display: flex;
+    font-family: Ubuntu-Bold, ﻿Ubuntu-Medium, ﻿AdobeInvisFont,
+      ﻿MyriadPro-Regular;
+    font-size: 12px;
+    color: rgba(247, 247, 247, 255);
+    text-align: center;
+    margin-bottom: 10px;
+    margin: auto;
+  }
+  .hero-content > .text-under-form > div {
+    align-self: center;
+    margin-left: 2px;
+    padding: 3px 3px;
+    border-radius: 6px;
+    background-color: #ffce54;
+  }
+  .hero-image {
+    display: none;
+  }
+}
