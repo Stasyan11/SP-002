@@ -1,0 +1,337 @@
+@media (min-width: 1500px) {
+  .wrap {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .description > h2 {
+    text-align: center;
+    height: 29px;
+    opacity: 0.85;
+    color: #2d394c;
+    font-family: Ubuntu;
+    font-size: 40px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 119px;
+    margin-bottom: 0;
+  }
+  .description > .wrap > .container {
+    width: 90.1%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 128px;
+  }
+  .description > .wrap > .container > .description-content {
+    width: 36.3%;
+    margin-top: 9px;
+  }
+  .card-article > .article-title {
+    display: flex;
+    margin-top: 34px;
+  }
+  .exception-article {
+    margin-top: 43px;
+  }
+  .card-article > .article-title > h5 {
+    opacity: 0.9;
+    color: #2d394c;
+    font-family: Ubuntu;
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+  }
+  .card-article > .article-title > .first-title {
+    padding-bottom: 15px;
+  }
+  .card-article > p {
+    color: #9499a2;
+    font-family: "Open Sans";
+    font-size: 15.5px;
+    font-weight: 400;
+    margin: 0;
+    width: 98.5%;
+  }
+  .card-article > .first-article-title {
+    margin-top: 0;
+  }
+  .description > .wrap > .container > .description-image {
+    width: 54.8%;
+    align-self: flex-end;
+  }
+  .description > .wrap > .container > .description-image > img {
+    width: 100%;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1500px) {
+  .wrap {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 29px;
+  }
+  .description > h2 {
+    text-align: center;
+    height: 29px;
+    opacity: 0.85;
+    color: #2d394c;
+    font-family: Ubuntu;
+    font-size: 40px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 49px;
+    margin-bottom: 0;
+  }
+  .description > .wrap > .container {
+    width: 82%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 128px;
+    margin: auto;
+    margin-top: 25px;
+  }
+  .description > .wrap > .container > .description-content {
+    width: 100%;
+    margin-top: 9px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+  }
+  .card-article {
+    width: 45%;
+  }
+  .card-article > .article-title {
+    display: flex;
+    margin-top: 24px;
+  }
+  .card-article > .article-title > h5 {
+    opacity: 0.9;
+    color: #2d394c;
+    font-family: Ubuntu;
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+  }
+  .card-article > .first-article-title {
+    margin-top: 36px;
+  }
+  .card-article > p {
+    color: #9499a2;
+    font-family: "Open Sans";
+    font-size: 15.5px;
+    font-weight: 400;
+    margin: 0;
+    width: 98.5%;
+  }
+  .description > .wrap > .container > .description-image {
+    display: none;
+  }
+}
+@media (min-width: 960px) and (max-width: 1200px) {
+  .wrap {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 29px;
+  }
+  .description > h2 {
+    text-align: center;
+    height: 29px;
+    opacity: 0.85;
+    color: #2d394c;
+    font-family: Ubuntu;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 49px;
+    margin-bottom: 0;
+  }
+  .description > .wrap > .container {
+    width: 82%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 128px;
+    margin: auto;
+    margin-top: 25px;
+  }
+  .description > .wrap > .container > .description-content {
+    width: 100%;
+    margin-top: 9px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+  }
+  .card-article {
+    width: 100%;
+  }
+  .card-article > .article-title {
+    display: flex;
+    margin-top: 24px;
+  }
+  .card-article > .article-title > h5 {
+    opacity: 0.9;
+    color: #2d394c;
+    font-family: Ubuntu;
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+  }
+  .card-article > .first-article-title {
+    margin-top: 36px;
+  }
+  .card-article > p {
+    color: #9499a2;
+    font-family: "Open Sans";
+    font-size: 15.5px;
+    font-weight: 400;
+    margin: 0;
+    width: 98.5%;
+  }
+  .description > .wrap > .container > .description-image {
+    display: none;
+  }
+}
+@media (min-width: 640px) and (max-width: 960px) {
+  .wrap {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 29px;
+  }
+  .description > h2 {
+    text-align: center;
+    height: 29px;
+    opacity: 0.85;
+    color: #2d394c;
+    font-family: Ubuntu;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 49px;
+    margin-bottom: 0;
+  }
+  .description > .wrap > .container {
+    width: 82%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 128px;
+    margin: auto;
+    margin-top: 25px;
+  }
+  .description > .wrap > .container > .description-content {
+    width: 100%;
+    margin-top: 9px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+  }
+  .card-article {
+    width: 100%;
+  }
+  .card-article > .article-title {
+    display: flex;
+    margin-top: 24px;
+  }
+  .card-article > .article-title > h5 {
+    opacity: 0.9;
+    color: #2d394c;
+    font-family: Ubuntu;
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+  }
+  .card-article > .first-article-title {
+    margin-top: 36px;
+  }
+  .card-article > p {
+    color: #9499a2;
+    font-family: "Open Sans";
+    font-size: 15.5px;
+    font-weight: 400;
+    margin: 0;
+    width: 98.5%;
+  }
+  .description > .wrap > .container > .description-image {
+    display: none;
+  }
+}
+@media (min-width: 320px) and (max-width: 640px) {
+  .wrap {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 29px;
+  }
+  .description > h2 {
+    text-align: center;
+    height: 29px;
+    opacity: 0.85;
+    color: #2d394c;
+    font-family: Ubuntu;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 49px;
+    margin-bottom: 0;
+  }
+  .description > .wrap > .container {
+    width: 82%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 128px;
+    margin: auto;
+    margin-top: 25px;
+  }
+  .description > .wrap > .container > .description-content {
+    width: 100%;
+    margin-top: 9px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+  }
+  .card-article {
+    width: 100%;
+  }
+  .card-article > .article-title {
+    display: flex;
+    margin-top: 24px;
+  }
+  .card-article > .article-title > h5 {
+    text-align: center;
+    opacity: 0.9;
+    color: #2d394c;
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    margin-left: 10px;
+  }
+  .card-article > .first-article-title {
+    margin-top: 36px;
+  }
+  .card-article > p {
+    color: #9499a2;
+    font-family: "Open Sans";
+    font-size: 12.5px;
+    font-weight: 400;
+    margin: 0;
+    width: 98.5%;
+  }
+  .description > .wrap > .container > .description-image {
+    display: none;
+  }
+}
