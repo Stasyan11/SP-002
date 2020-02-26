@@ -6,6 +6,37 @@ a {
   text-decoration: none;
 }
 
+.link-logo-1:visited {
+  color: #333333;
+}
+.link-logo-2:visited {
+  color: #73b4e2;
+}
+.link-footer-1 {
+  color: #a2a2a2;
+}
+.link-footer-2 {
+  color: rgba(0, 0, 0, 0.8);
+  opacity: 0.44;
+}
+
 .tiTle {
   margin: 20px 0;
+}
+
+input {
+  border: 1px solid #989ea7;
+}
+
+.cloud-1 {
+  position: absolute;
+  height: 28px;
+  width: 49px;
+  left: 120px;
+  top: 235px;
+}
+.cloud-2 {
+  position: absolute;
+  left: 153px;
+  top: 825px;
 }

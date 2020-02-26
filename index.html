@@ -3,6 +3,14 @@
   <head>
     <title>Parcel Sandbox</title>
     <meta charset="UTF-8" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="styles/main.css" />
     <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css" />
@@ -12,10 +20,12 @@
     <header>
       <div class="container">
         <div class="logo">
-          <img src="images/crop@1X.png" class="logo-image" />
+          <img src="images/crop@1X.png" class="logo-image" alt="logo" />
           <div class="logo-text">
-            TANK
-            <span>APP</span>
+            <a class="link-logo-1" href="#">
+              TANK
+            </a>
+            <span><a class="link-logo-2 " href="#">APP</a></span>
           </div>
         </div>
 
@@ -24,7 +34,7 @@
             <a href="#">How it works </a>
           </div>
           <div>
-            <a href="#">About Us</a>
+            <a href="#aboutUs">About Us</a>
           </div>
           <div class="firsrt-nav">
             <a href="#">Contact Us </a>
@@ -42,9 +52,11 @@
     </header>
     <main>
       <section class="hero">
+        <div class="cloud-1"><img src="icons/Vector Smart Object copy@1X.png"/></div>
+        <div class="cloud-2"><img src="icons/Vector Smart Object copy 2@1X.png"/></div>
         <div class="container">
           <div class="hero-content">
-            <h1>Track your next fuel shops</h1>
+            <h1 id="home">Track your next fuel shops</h1>
             <p>Monitor and Alert on all petrol bunks near to you</p>
             <div class="text-under-form">
               <p>Signup For</p>
@@ -84,7 +96,7 @@
       </section>
 
       <section class="description">
-        <h2>WHY Tank App ?</h2>
+        <h2 id="aboutUs">WHY Tank App ?</h2>
         <div class="wrap">
           <div class="container">
             <div class="description-content">
@@ -270,9 +282,13 @@
         <div class="container">
           <h4>SAVE TIME & GAIN AGILITY</h4>
           <p>
-            Using our cloud Monitoring Services So you can Focous on Runing
-            Yours Better
+            <i>
+              Using our cloud Monitoring Services So you can Focous on Runing
+              Yours Better
+            </i>
           </p>
+
+          <p></p>
           <form>
             <input placeholder="Enter Your E-mail Adress" />
             <span></span>
@@ -284,14 +300,18 @@
       <section class="footer">
         <div class=" container">
           <div class="footer-logo">
-            <h4 class="tiTle">Tank<span>app</span></h4> <span class="drop-icons"></span>
+            <h4 class="tiTle">
+              <a class="link-footer-1" href="#">Tank</a
+              ><span><a class="link-footer-2" href="#">app</a></span>
+            </h4>
+            <span class="drop-icons"></span>
           </div>
           <div class="footer-nav">
-            <div>home</div>
-            <div>about us</div>
-            <div>how it works</div>
-            <div>Contact</div>
-            <div>ablog</div>
+            <div><a href="#home">home</a></div>
+            <div><a href="#aboutUs">about us</a></div>
+            <div><a href="#">how it works</a></div>
+            <div><a href="#">Contact</a></div>
+            <div><a href="#">ablog</a></div>
           </div>
           <div class=" footer-images">
             <div class="twiter"></div>
